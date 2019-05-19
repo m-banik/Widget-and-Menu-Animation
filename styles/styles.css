@@ -55,10 +55,11 @@ body {
   height: 100vh;
   color: #fff;
   background-color: #000;
-  transition: .5s linear;
+  transition: .5s linear, padding 2s 3.4s linear;
 }
 
 #menu>span.active~aside {
+  padding: 0 2% 0 0;
   left: -20%;
 }
 
